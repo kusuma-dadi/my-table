@@ -1,38 +1,140 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  gap: 8px;
+  padding: 1rem;
+}
+
+h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif; 
+  
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-family: Georgia, 'Times New Roman', Times, serif; 
+  
+}
+
+th,
+td {
+  border: 1px solid #ffffff;
+  text-align: left;
+  padding: 4px;
+  font-size: 20px;
+}
+
+th {
+  background-color: rgb(117, 201, 250);
+}
+
+td {
+  background-color: rgb(205, 235, 253);
+}
+
+h2 {
+  font-family: Georgia, 'Times New Roman', Times, serif; 
+  padding-top: 20px;
+}
+
+form {
+  display: flex;
+  gap: 10px;
+  padding: 4px;
+}
+
+form td:last-child {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+form * {
+  font-size: 25px;
+
+}
+
+button {
+  background-color: rgb(133, 184, 231) ;
+  
+}
+
+/* 
+.App {
+  width: 100%;
+  height: 100vh;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+}
+  
+table {
+  border: 3px solid rgb(16, 17, 16);
+  width: 600px;
+  height: 90px;
+}
+  
+th {
+  border-bottom: 2px solid black;
+}
+  
+td {
+  text-align: left;
 }
 
-.App-link {
-  color: #61dafb;
+h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif; 
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+/* body {
+  background-color: rgb(0, 183, 255);
+} */
+
+/* .main {
+  margin-top: 5em;
+} */
+/* 
+.center {
+  justify-content: center;
+  padding: 10px;
+} */
+/* 
+.search input {
+  width: 100%;
+  border-radius: 0 !important;
+} */
+/* 
+.item {
+  padding: 15px 0px !important;
+} */
+/* 
+img.image {
+  font-size: x-large;
+} */
+/* 
+i.icon {
+  float: right;
+  font-size: 20px;
+  cursor: pointer;
+} */
+/* 
+h1 {
+  /* text-align: center; */
+  /* color: blueviolet; */
+  /* font-family: Georgia, 'Times New Roman', Times, serif; */
+  /* font-size: 350%; }
+/*  */
+/* 
+h2 {
+ color: rgb(233, 114, 154);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 200%;
+} */
+/* 
+h3 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 250%;
 }
+ */  
